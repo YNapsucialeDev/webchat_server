@@ -1,0 +1,31 @@
+{
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "Simple videochat webapp for further development",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "video",
+    "chat",
+    "development",
+    "webrtc",
+    "node",
+    "yannick",
+    "napsuciale",
+    "grupo",
+    "vizer"
+  ],
+  "author": "Yannick Napsuciale",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
